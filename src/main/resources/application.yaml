@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: ${port}
 
 vk:
   api:
-    access: "vk1.a.aEQtemIRiVFwrosxA8fpK3jgbMH2P8ceapszJqQKKWQ7kKy0J4JeSsLif6fKtGoJJrhoYEM3MYNR9ETpuIrO-Qg626pYVtE6Ph8d8Uy98DhMWP1Fp655PGR1qRd3FAZ2QpPfJJN9ZpE1k0TGqo3k2rueBjKdV2_tqfEbt7hl5e0fOBe6lIb1_k4rmngAMOymRBCk-gGgqi7ctyHUdgX5zA"
-    version: "5.89"
-    endpoint: "https://api.vk.com/method"
-    confirmation: "d9a8a4dc"
+    access: ${vk_api_acces_token}
+    version: ${vk_api_version}
+    endpoint: ${vk_api_endpoint}
+    confirmation: ${vk_api_confirmation}
